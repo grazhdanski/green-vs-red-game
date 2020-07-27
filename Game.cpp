@@ -133,7 +133,7 @@ bool Game::Play()
 	return true;
 }
 
-unsigned int Game::getTrackedCellGreenTimes() const
+unsigned int Game::GetTrackedCellGreenTimes() const
 {
 	if (this->isInitialized && this->currentGeneration >= this->targetGeneration)
 	{

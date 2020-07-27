@@ -15,7 +15,7 @@ int main()
 		return 1;
 	}
 
-	std::cout << game.getTrackedCellGreenTimes() << std::endl;
+	std::cout << game.GetTrackedCellGreenTimes() << std::endl;
 
 	return 0;
 }

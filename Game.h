@@ -26,7 +26,7 @@ public:
 	Game() : currentGeneration(0), targetGeneration(0), trackedCellGreenTimes(0), isInitialized(false) {}
 	
 	// Getters
-	unsigned int getTrackedCellGreenTimes() const;
+	unsigned int GetTrackedCellGreenTimes() const;
 
 	// Utilities
 	bool Initialize(); // Initialize the game
